@@ -1,0 +1,67 @@
+{
+    "store": {
+      "name": "Sample Online Store",
+      "location": "1234 Sample St, Sample City, SC 12345",
+      "products": [
+        {
+          "id": 1,
+          "name": "Wireless Mouse",
+          "description": "A comfortable wireless mouse with a sleek design.",
+          "price": 25.99,
+          "category": "Electronics",
+          "inStock": true
+        },
+        {
+          "id": 2,
+          "name": "Bluetooth Headphones",
+          "description": "Noise-canceling Bluetooth headphones with superior sound quality.",
+          "price": 89.99,
+          "category": "Electronics",
+          "inStock": true
+        },
+        {
+          "id": 3,
+          "name": "Laptop Stand",
+          "description": "Adjustable laptop stand for ergonomic use.",
+          "price": 34.99,
+          "category": "Accessories",
+          "inStock": false
+        }
+      ],
+      "users": [
+        {
+          "id": 1,
+          "username": "johndoe",
+          "email": "johndoe@example.com",
+          "password": "password123",
+          "registeredOn": "2023-01-15"
+        },
+        {
+          "id": 2,
+          "username": "janedoe",
+          "email": "janedoe@example.com",
+          "password": "mypassword",
+          "registeredOn": "2023-02-20"
+        }
+      ],
+      "orders": [
+        {
+          "id": 1,
+          "userId": 1,
+          "productIds": [1, 2],
+          "totalAmount": 115.98,
+          "orderDate": "2023-10-25",
+          "status": "Shipped"
+        },
+        {
+          "id": 2,
+          "userId": 2,
+          "productIds": [3],
+          "totalAmount": 34.99,
+          "orderDate": "2023-10-30",
+          "status": "Pending"
+        }
+      ]
+    }
+  }
+  
